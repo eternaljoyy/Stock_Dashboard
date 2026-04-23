@@ -23,7 +23,9 @@ class Main:
         plt.title("APPL Stock Price")
         # Add the titles and label to the graph 
         plt.xlabel("Date")
-        plt.ylabel("Open Price")
+        plt.ylabel("Open Price") 
+
+        # Clean up the x-axis labels to avoid overlap
 
         #Display the plot 
         plt.show() 
